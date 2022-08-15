@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Light"), local("Lato-Light"), url("../../media/fonts/Lato-Light.woff2") format("woff2"), url("../../media/fonts/Lato-Light.woff") format("woff"), url("../../media/fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("Lato-Regular"), url("../../media/fonts/Lato-Regular.woff2") format("woff2"), url("../../media/fonts/Lato-Regular.woff") format("woff"), url("../../media/fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Medium"), local("Lato-Medium"), url("../../media/fonts/Lato-Medium.woff2") format("woff2"), url("../../media/fonts/Lato-Medium.woff") format("woff"), url("../../media/fonts/Lato-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light"), local("Open-Sans-Light"), url("../../media/fonts/OpenSans-Light.woff2") format("woff2"), url("../../media/fonts/OpenSans-Light.woff") format("woff"), url("../../media/fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Semi Bold"), local("Open-Sans-Semi-Bold"), url("../../media/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("../../media/fonts/OpenSans-SemiBold.woff") format("woff"), url("../../media/fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold"), local("Open-Sans-Bold"), url("../../media/fonts/OpenSans-Bold.woff2") format("woff2"), url("../../media/fonts/OpenSans-Bold.woff") format("woff"), url("../../media/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background-color: #F5F5F5;
+}
+
+.header {
+  height: 100px;
+  background: #08212E;
+  padding: 37px 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.footer {
+  padding: 35px 52px;
+  display: flex;
+  background: #08212E;
+  font-family: "Open Sans";
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column--left {
+  width: 220px;
+}
+.footer__column--right {
+  align-items: flex-end;
+  width: calc(100% - 220px);
+}
+.footer__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.footer__copyright {
+  margin-top: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.footer__nav ul {
+  display: flex;
+  column-gap: 43px;
+}
+.footer__nav ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.footer__commissions {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+.footer__commissionsItem--gamblingCommission {
+  height: 24px;
+}
+.footer__commissionsItem--gamStop {
+  height: 20px;
+}
+.footer__commissionsItem--beGambleAware {
+  height: 17px;
+}
+.footer__commissionsItem--gamCare {
+  height: 31px;
+}
+.footer__commissionsItem--icon18 {
+  height: 35px;
+  width: 35px;
+}
+.footer__warning {
+  margin-top: 32px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.css.map */

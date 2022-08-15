@@ -1,0 +1,33 @@
+.author {
+  padding: 15px;
+  min-width: 400px;
+  height: 121px;
+  background: #FFFFFF;
+}
+.author__label {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #08212E;
+}
+.author__params {
+  margin: 10px 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 90px;
+}
+.author__paramsItem {
+  min-width: 105px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #08212E;
+}
+.author__paramsItem a {
+  color: rgb(0, 129, 158);
+}
+
+/*# sourceMappingURL=author.css.map */

@@ -1,0 +1,38 @@
+.couponsPage {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.couponsPage__title {
+  margin-top: 47px;
+  font-family: "Lato";
+  font-size: 36px;
+  line-height: 50px;
+  color: #08212E;
+}
+.couponsPage__description {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 22px;
+}
+.couponsPage__about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #08212E;
+}
+.couponsPage__about strong {
+  font-weight: 500;
+}
+.couponsPage__coupons {
+  margin-top: 50px;
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,121 @@
+@import 'fonts.scss';
+
+body {
+    background-color: #F5F5F5;
+}
+
+.header {
+    height: 100px;
+    background: #08212E;
+
+    padding: 37px 38px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.footer {
+    padding: 35px 52px;
+
+    display: flex;
+
+    background: #08212E;
+
+    font-family: 'Open Sans';
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+
+        &--left {
+            width: 220px;
+        }
+
+        &--right {
+            align-items: flex-end;
+            width: calc(100% - 220px);
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    &__copyright {
+        margin-top: 35px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    &__nav {
+        ul {
+            display: flex;
+            column-gap: 43px;
+
+            li {
+                a {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    &__commissions {
+        margin-top: 46px;
+
+        display: flex;
+        align-items: center;
+        column-gap: 18px;
+
+        &Item {
+            &--gamblingCommission {
+                height: 24px;
+            }
+            &--gamStop {
+                height: 20px;
+            }
+            &--beGambleAware {
+                height: 17px;
+            }
+            &--gamCare {
+                height: 31px;
+            }
+            &--icon18 {
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+
+    &__warning {
+        margin-top: 32px;
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}

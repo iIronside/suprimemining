@@ -1,0 +1,35 @@
+.author {
+    padding: 15px;
+    min-width: 400px;
+    height: 121px;
+    background: #FFFFFF;
+
+    &__label {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #08212E;
+    }
+
+    &__params {
+        margin: 10px 43px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 90px;
+
+        &Item {
+            min-width: 105px;
+            font-family: 'Open Sans';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #08212E;
+
+            a {
+                color: rgba(0, 129, 158, 1);
+            }
+        }
+    }
+}
