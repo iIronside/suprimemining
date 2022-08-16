@@ -105,9 +105,7 @@ main {
   align-items: center;
   column-gap: 18px;
 }
-.footer__commissionsItem--gamblingCommission {
-  height: 24px;
-}
+
 .footer__commissionsItem--gamStop {
   height: 20px;
 }

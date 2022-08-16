@@ -276,34 +276,6 @@
             © 2011-2022 Mining Coupons
         </div>
     </div>
-<!--    <div class="footer__column footer__column--right">-->
-<!--        <div class="footer__nav">-->
-<!--            <ul>-->
-<!--                <li>-->
-<!--                    <a href="#">Online Slots UK</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="#">Contact us</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="#">Privacy Policy</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="#">Responsible Gambling</a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--        <div class="footer__commissions">-->
-<!--            <img class="footer__commissionsItem footer__commissionsItem--gamblingCommission" src="media/images/png/gamblingCommissionLogo.png" alt="Gambling Commission">-->
-<!--            <img class="footer__commissionsItem footer__commissionsItem--gamStop" src="media/images/png/gamStopLogo.png" alt="Gam Stop">-->
-<!--            <img class="footer__commissionsItem footer__commissionsItem--beGambleAware" src="media/images/png/beGambleAwareLogo.png" alt="Be Gamble Aware">-->
-<!--            <img class="footer__commissionsItem footer__commissionsItem--gamCare" src="media/images/png/gamCareLogo.png" alt="Gam Care">-->
-<!--            <img class="footer__commissionsItem footer__commissionsItem--icon18" src="media/images/png/icon18.png" alt="18+">-->
-<!--        </div>-->
-<!--        <div class="footer__warning">-->
-<!--            Gambling can be addictive, please play responsibly.-->
-<!--        </div>-->
-<!--    </div>-->
 </footer>
 </body>
 </html>
