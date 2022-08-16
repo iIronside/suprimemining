@@ -218,7 +218,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://bemine.club/">Visit Site</a>
+                    <a href="https://bemine.club/?ref=b3NjYXIuam9uZXM2MzlAcHJvdG9uLm1l">Visit Site</a>
                 </div>
             </div>
 
@@ -260,7 +260,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="http://ecos.am/">Visit Site</a>
+                    <a href="https://ecos.am/en/cloud-mining?ref=GUYSkPOn/">Visit Site</a>
                 </div>
             </div>
         </div>
