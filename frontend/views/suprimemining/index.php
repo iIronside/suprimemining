@@ -16,9 +16,9 @@
     <div class="couponItem__logo">
         <img src="media/images/png/mining_coupons_logo.png" alt="">
     </div>
-    <div class="header__search">
-        <img src="media/images/svg/searchIcon.svg" alt="search">
-    </div>
+<!--    <div class="header__search">-->
+<!--        <img src="media/images/svg/searchIcon.svg" alt="search">-->
+<!--    </div>-->
 </header>
 
 <main>
