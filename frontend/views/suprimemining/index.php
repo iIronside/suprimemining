@@ -34,7 +34,7 @@
                 </p>
 
                 <p class="couponsPage__aboutItem">
-                    Our experienced team has collected the <strong>most profitable coupons</strong> from the <strong>best cloud mining services</strong>. Only coupons from verified cloud mining services are published here.<br /><strong>Hurry to use the coupons, because time is limited.</strong>
+                    Our experienced team has collected the <strong>most profitable coupons</strong> from the <strong>best cloud mining services</strong>. Only coupons from verified cloud mining services are published here.<br /> <strong>Only by clicking on the "Visit Site" button will you receive a bonus. Hurry to use the coupons, because time is limited.</strong>
                 </p>
             </div>
 
