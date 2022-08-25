@@ -58,12 +58,31 @@ main {
   padding-top: 30px;
   padding-bottom: 90px;
 }
+@media (max-width: 1360px) {
+  main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 676px) {
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 .footer {
   padding: 35px 52px;
   display: flex;
   background: #08212E;
   font-family: "Open Sans";
+}
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+  }
 }
 .footer__column {
   display: flex;
@@ -72,9 +91,20 @@ main {
 .footer__column--left {
   width: 220px;
 }
+@media (max-width: 480px) {
+  .footer__column--left {
+    width: 100%;
+  }
+}
 .footer__column--right {
   align-items: flex-end;
   width: calc(100% - 220px);
+}
+@media (max-width: 480px) {
+  .footer__column--right {
+    width: 100%;
+    align-items: flex-start;
+  }
 }
 .footer__title {
   font-weight: 700;
@@ -93,6 +123,18 @@ main {
   display: flex;
   column-gap: 43px;
 }
+@media (max-width: 676px) {
+  .footer__nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__nav ul {
+    align-items: flex-start;
+  }
+}
 .footer__nav ul li a {
   font-weight: 600;
   font-size: 16px;
@@ -105,7 +147,9 @@ main {
   align-items: center;
   column-gap: 18px;
 }
-
+.footer__commissionsItem--gamblingCommission {
+  height: 24px;
+}
 .footer__commissionsItem--gamStop {
   height: 20px;
 }

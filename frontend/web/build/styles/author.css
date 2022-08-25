@@ -4,6 +4,13 @@
   height: 121px;
   background: #FFFFFF;
 }
+@media (max-width: 440px) {
+  .author {
+    min-width: unset;
+    max-width: 400px;
+    width: 100%;
+  }
+}
 .author__label {
   font-family: "Lato";
   font-weight: 400;
@@ -17,6 +24,12 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 90px;
+}
+@media (max-width: 440px) {
+  .author__params {
+    margin: 10px 23px;
+    column-gap: 20px;
+  }
 }
 .author__paramsItem {
   min-width: 105px;

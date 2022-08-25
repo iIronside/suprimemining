@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="build/styles/reset.css" rel="stylesheet">
-    <link href="build/styles/main.css" rel="stylesheet">
-    <link href="build/styles/index.css" rel="stylesheet">
-    <link href="build/styles/author.css" rel="stylesheet">
-    <link href="build/styles/couponItem.css" rel="stylesheet">
+    <link href="/build/styles/reset.css" rel="stylesheet">
+    <link href="/build/styles/main.css" rel="stylesheet">
+    <link href="/build/styles/index.css" rel="stylesheet">
+    <link href="/build/styles/breadcrumbs.css" rel="stylesheet">
+    <link href="/build/styles/author.css" rel="stylesheet">
+    <link href="/build/styles/couponItem.css" rel="stylesheet">
     <title>Mining Coupons</title>
 </head>
 <body>
@@ -17,11 +18,18 @@
         <img src="media/images/png/mining_coupons_logo.png" alt="">
     </div>
 <!--    <div class="header__search">-->
-<!--        <img src="media/images/svg/searchIcon.svg" alt="search">-->
+<!--        <img src="/media/images/svg/searchIcon.svg" alt="search">-->
 <!--    </div>-->
 </header>
 
 <main>
+    <div class="breadcrumbs">
+        <a href="/index.html" class="breadcrumbs__home">
+            <img src="/media/images/svg/homeIcon.svg" alt="home icon">
+        </a>
+        <span class="breadcrumbs__separator">/</span>
+        <span class="breadcrumbs__section">Mining Coupons</span>
+    </div>
     <div class="couponsPage">
         <h2 class="couponsPage__title">
             Mining Coupons for The Best Cloud Mining Platforms
@@ -34,7 +42,7 @@
                 </p>
 
                 <p class="couponsPage__aboutItem">
-                    Our experienced team has collected the <strong>most profitable coupons</strong> from the <strong>best cloud mining services</strong>. Only coupons from verified cloud mining services are published here.<br /> <strong>Only by clicking on the "Visit Site" button will you receive a bonus. Hurry to use the coupons, because time is limited.</strong>
+                    Our experienced team has collected the <strong>most profitable coupons</strong> from the <strong>best cloud mining services</strong>. Only coupons from verified cloud mining services are published here.<br /><strong>Hurry to use the coupons, because time is limited.</strong>
                 </p>
             </div>
 
@@ -55,212 +63,222 @@
 
         <div class="couponsPage__coupons">
             <div class="couponsPage__couponsItem couponItem">
-                <div class="couponItem__logo">
-                    <img src="media/images/png/letMeCloudLogo.png" alt="">
-                </div>
                 <div class="couponItem__main">
-                    <h3 class="couponItem__title">
-                        1. LetMeCloud
-                    </h3>
-                    <div class="couponItem__benefits">
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">33% Bonus</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Customer Support 24/7</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Profitability Calculator</span>
+                    <div class="couponItem__logo">
+                        <img src="/media/images/png/letMeCloudLogo.png" alt="">
+                    </div>
+                    <div class="couponItem__info">
+                        <h3 class="couponItem__title">
+                            1. LetMeCloud
+                        </h3>
+                        <div class="couponItem__benefits">
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">33% Bonus</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Customer Support 24/7</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Profitability Calculator</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="couponItem__description">
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/bonusIcon.svg" alt="">
+                        <img src="/media/images/svg/bonusIcon.svg" alt="">
                         <p>33% Bonus</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/supportIcon.svg" alt="">
+                        <img src="/media/images/svg/supportIcon.svg" alt="">
                         <p>Customer Support 24/7</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/calculatorIcon.svg" alt="">
+                        <img src="/media/images/svg/calculatorIcon.svg" alt="">
                         <p>Profitability Calculator</p>
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://letmecloud.com/?aff=4bzp2b">Visit Site</a>
+                    <a href="#">Visit Site</a>
                 </div>
             </div>
 
             <div class="couponsPage__couponsItem couponItem">
-                <div class="couponItem__logo">
-                    <img src="media/images/png/iqMiningLogo.png" alt="">
-                </div>
                 <div class="couponItem__main">
-                    <h3 class="couponItem__title">
-                        2. IQ Mining
-                    </h3>
-                    <div class="couponItem__benefits">
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">30% Bonus</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Customer Support 24/7</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Profitability Calculator</span>
+                    <div class="couponItem__logo">
+                        <img src="/media/images/png/iqMiningLogo.png" alt="">
+                    </div>
+                    <div class="couponItem__info">
+                        <h3 class="couponItem__title">
+                            2. IQ Mining
+                        </h3>
+                        <div class="couponItem__benefits">
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">30% Bonus</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Customer Support 24/7</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Profitability Calculator</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="couponItem__description">
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/bonusIcon.svg" alt="">
+                        <img src="/media/images/svg/bonusIcon.svg" alt="">
                         <p>30% Bonus</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/supportIcon.svg" alt="">
+                        <img src="/media/images/svg/supportIcon.svg" alt="">
                         <p>Customer Support 24/7</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/calculatorIcon.svg" alt="">
+                        <img src="/media/images/svg/calculatorIcon.svg" alt="">
                         <p>Profitability Calculator</p>
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://secure.iqmining.com/track/NjczOC42NS42NC42MzEuMC4wLjAuMC4wLjAuMC4w">Visit Site</a>
+                    <a href="#">Visit Site</a>
                 </div>
             </div>
 
             <div class="couponsPage__couponsItem couponItem">
-                <div class="couponItem__logo">
-                    <img src="media/images/png/hashmartLogo.png" alt="">
-                </div>
                 <div class="couponItem__main">
-                    <h3 class="couponItem__title">
-                        3. Hashmart
-                    </h3>
-                    <div class="couponItem__benefits">
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">5% Bonus</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Customer Support 24/7</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Profitability Calculator</span>
+                    <div class="couponItem__logo">
+                        <img src="/media/images/png/hashmartLogo.png" alt="">
+                    </div>
+                    <div class="couponItem__info">
+                        <h3 class="couponItem__title">
+                            3. Hashmart
+                        </h3>
+                        <div class="couponItem__benefits">
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">5% Bonus</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Customer Support 24/7</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Profitability Calculator</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="couponItem__description">
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/bonusIcon.svg" alt="">
+                        <img src="/media/images/svg/bonusIcon.svg" alt="">
                         <p>5% Bonus</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/supportIcon.svg" alt="">
+                        <img src="/media/images/svg/supportIcon.svg" alt="">
                         <p>Customer Support 24/7</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/calculatorIcon.svg" alt="">
+                        <img src="/media/images/svg/calculatorIcon.svg" alt="">
                         <p>Profitability Calculator</p>
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://hashmart.io/special/304091">Visit Site</a>
+                    <a href="#">Visit Site</a>
                 </div>
             </div>
 
             <div class="couponsPage__couponsItem couponItem">
-                <div class="couponItem__logo">
-                    <img src="media/images/png/beMineLogo.png" alt="">
-                </div>
                 <div class="couponItem__main">
-                    <h3 class="couponItem__title">
-                        4. BeMine
-                    </h3>
-                    <div class="couponItem__benefits">
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">27.5 TH/s Mining Power, Duration is ONLY 3 Days</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Customer Support 24/7</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Profitability Calculator</span>
+                    <div class="couponItem__logo">
+                        <img src="/media/images/png/beMineLogo.png" alt="">
+                    </div>
+                    <div class="couponItem__info">
+                        <h3 class="couponItem__title">
+                            4. BeMine
+                        </h3>
+                        <div class="couponItem__benefits">
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">27.5 TH/s Mining Power, Duration is ONLY 3 Days</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Customer Support 24/7</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Profitability Calculator</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="couponItem__description">
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/bonusIcon.svg" alt="">
+                        <img src="/media/images/svg/bonusIcon.svg" alt="">
                         <p>27.5 TH/s Mining Power, Duration is ONLY 3 Days</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/supportIcon.svg" alt="">
+                        <img src="/media/images/svg/supportIcon.svg" alt="">
                         <p>Customer Support 24/7</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/calculatorIcon.svg" alt="">
+                        <img src="/media/images/svg/calculatorIcon.svg" alt="">
                         <p>Profitability Calculator</p>
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://bemine.club/?ref=b3NjYXIuam9uZXM2MzlAcHJvdG9uLm1l">Visit Site</a>
+                    <a href="#">Visit Site</a>
                 </div>
             </div>
 
             <div class="couponsPage__couponsItem couponItem">
-                <div class="couponItem__logo">
-                    <img src="media/images/png/ecosLogo.png" alt="">
-                </div>
                 <div class="couponItem__main">
-                    <h3 class="couponItem__title">
-                        5. Ecos
-                    </h3>
-                    <div class="couponItem__benefits">
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">10 TH/s Mining Power, Duration is ONLY 3 Days</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Customer Support 24/7</span>
-                        </div>
-                        <div class="couponItem__benefitsItem benefitsItem">
-                            <img class="benefitsItem__icon" src="media/images/svg/checkIcon.svg" alt="">
-                            <span class="benefitsItem__text">Profitability Calculator</span>
+                    <div class="couponItem__logo">
+                        <img src="/media/images/png/ecosLogo.png" alt="">
+                    </div>
+                    <div class="couponItem__info">
+                        <h3 class="couponItem__title">
+                            5. Ecos
+                        </h3>
+                        <div class="couponItem__benefits">
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">10 TH/s Mining Power, Duration is ONLY 3 Days</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Customer Support 24/7</span>
+                            </div>
+                            <div class="couponItem__benefitsItem benefitsItem">
+                                <img class="benefitsItem__icon" src="/media/images/svg/checkIcon.svg" alt="">
+                                <span class="benefitsItem__text">Profitability Calculator</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="couponItem__description">
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/bonusIcon.svg" alt="">
+                        <img src="/media/images/svg/bonusIcon.svg" alt="">
                         <p>10 TH/s Mining Power, Duration is ONLY 3 Days</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/supportIcon.svg" alt="">
+                        <img src="/media/images/svg/supportIcon.svg" alt="">
                         <p>Customer Support 24/7</p>
                     </div>
                     <div class="couponItem__descriptionItem">
-                        <img src="media/images/svg/calculatorIcon.svg" alt="">
+                        <img src="/media/images/svg/calculatorIcon.svg" alt="">
                         <p>Profitability Calculator</p>
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="https://ecos.am/en/cloud-mining?ref=GUYSkPOn/">Visit Site</a>
+                    <a href="#">Visit Site</a>
                 </div>
             </div>
         </div>
@@ -275,6 +293,34 @@
         <div class="footer__copyright">
             © 2011-2022 Mining Coupons
         </div>
+    </div>
+    <div class="footer__column footer__column--right">
+        <div class="footer__nav">
+            <ul>
+                <!-- <li>
+                    <a href="#">Online Slots UK</a>
+                </li> -->
+<!--                <li>-->
+<!--                    <a href="#">Contact us</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Privacy Policy</a>-->
+<!--                </li>-->
+                <!-- <li>
+                    <a href="#">Responsible Gambling</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- <div class="footer__commissions">
+            <img class="footer__commissionsItem footer__commissionsItem--gamblingCommission" src="/media/images/png/gamblingCommissionLogo.png" alt="Gambling Commission">
+            <img class="footer__commissionsItem footer__commissionsItem--gamStop" src="/media/images/png/gamStopLogo.png" alt="Gam Stop">
+            <img class="footer__commissionsItem footer__commissionsItem--beGambleAware" src="/media/images/png/beGambleAwareLogo.png" alt="Be Gamble Aware">
+            <img class="footer__commissionsItem footer__commissionsItem--gamCare" src="/media/images/png/gamCareLogo.png" alt="Gam Care">
+            <img class="footer__commissionsItem footer__commissionsItem--icon18" src="/media/images/png/icon18.png" alt="18+">
+        </div>
+        <div class="footer__warning">
+            Gambling can be addictive, please play responsibly.
+        </div> -->
     </div>
 </footer>
 </body>

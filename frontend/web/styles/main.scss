@@ -1,0 +1,154 @@
+@import 'fonts.scss';
+
+body {
+    background-color: #F5F5F5;
+}
+
+.header {
+    height: 100px;
+    background: #08212E;
+
+    padding: 37px 38px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+    @media (max-width: 1360px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    @media (max-width: 676px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.footer {
+    padding: 35px 52px;
+    display: flex;
+    background: #08212E;
+    font-family: 'Open Sans';
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 25px;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+
+        &--left {
+            width: 220px;
+
+            @media (max-width: 480px) {
+                width: 100%;
+            }
+        }
+
+        &--right {
+            align-items: flex-end;
+            width: calc(100% - 220px);
+
+            @media (max-width: 480px) {
+                width: 100%;
+                align-items: flex-start;
+            }
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    &__copyright {
+        margin-top: 35px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    &__nav {
+        ul {
+            display: flex;
+            column-gap: 43px;
+
+            @media (max-width: 676px) {
+                flex-direction: column;
+                align-items: flex-end;
+                row-gap: 15px;
+            }
+
+            @media (max-width: 480px) {
+                align-items: flex-start;
+            }
+
+
+            li {
+                a {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    &__commissions {
+        margin-top: 46px;
+
+        display: flex;
+        align-items: center;
+        column-gap: 18px;
+
+        &Item {
+            &--gamblingCommission {
+                height: 24px;
+            }
+            &--gamStop {
+                height: 20px;
+            }
+            &--beGambleAware {
+                height: 17px;
+            }
+            &--gamCare {
+                height: 31px;
+            }
+            &--icon18 {
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+
+    &__warning {
+        margin-top: 32px;
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
