@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="#">Visit Site</a>
+                    <a href="https://letmecloud.com/?aff=4bzp2b">Visit Site</a>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="#">Visit Site</a>
+                    <a href="https://secure.iqmining.com/track/NjczOC42NS42NC42MzEuMC4wLjAuMC4wLjAuMC4w">Visit Site</a>
                 </div>
             </div>
 
@@ -190,7 +190,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="#">Visit Site</a>
+                    <a href="https://hashmart.io/special/304091">Visit Site</a>
                 </div>
             </div>
 
@@ -234,7 +234,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="#">Visit Site</a>
+                    <a href="https://bemine.club/?ref=b3NjYXIuam9uZXM2MzlAcHJvdG9uLm1l">Visit Site</a>
                 </div>
             </div>
 
@@ -278,7 +278,7 @@
                     </div>
                 </div>
                 <div class="couponItem__link">
-                    <a href="#">Visit Site</a>
+                    <a href="https://ecos.am/en/cloud-mining?ref=GUYSkPOn/">Visit Site</a>
                 </div>
             </div>
         </div>
